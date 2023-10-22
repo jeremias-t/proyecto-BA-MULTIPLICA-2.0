@@ -113,7 +113,7 @@ a {
     text-decoration: none;
   }
   
-  /* Estilos adicionales para hacer que el diseño sea responsive */
+  /* Estilos responsive */
   @media (max-width: 768px) {
     .producto__grid-productos {
       grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
@@ -314,7 +314,7 @@ footer {
 
 /* aca es el carrusel a modificar */
 .carrusel{
-    background-image: url(/img/pesas.png);
+    background-image: url(img/pesas.png);
     height: 800px;
     background-position: center center;
     background-repeat: no-repeat;
